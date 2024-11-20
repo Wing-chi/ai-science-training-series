@@ -108,6 +108,8 @@ Where _proof_ can be any of:
 - url to a W&B Run or [W&B Report](https://api.wandb.ai/links/aurora_gpt/7du35js1)
 - etc.
 
+## Homework proof
+![image](https://github.com/user-attachments/assets/92c8c2a3-3ba1-4ffc-bced-cf07d2094ba5)
 
 
 <!--[^gpu]: If you do not have access to the ALCF systems, you can install [OpenMPI](https://docs.open-mpi.org/en/v5.0.x/) and run across multiple CPUs as well-->
