@@ -111,5 +111,10 @@ Where _proof_ can be any of:
 ## Homework proof
 ![image](https://github.com/user-attachments/assets/92c8c2a3-3ba1-4ffc-bced-cf07d2094ba5)
 
+or
+
+![image](https://github.com/user-attachments/assets/76021fa0-e35e-4b6d-8290-7ce261079947)
+
+
 
 <!--[^gpu]: If you do not have access to the ALCF systems, you can install [OpenMPI](https://docs.open-mpi.org/en/v5.0.x/) and run across multiple CPUs as well-->
