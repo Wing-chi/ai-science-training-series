@@ -76,6 +76,10 @@ BERT with batch size 1024
 BERT with batch size 512
 ![image](https://github.com/user-attachments/assets/43299938-3236-4b5c-9f24-9e508774b4fe)
 
+Considering how I get this error when I run the code:
+![image](https://github.com/user-attachments/assets/1eb0883d-bcf3-424c-b667-e1d345ffe562)
+
+I am not sure what the actual performance will be but I believe that having larger batch sizes would result in better performance, however, having batch sizes that are too large can also be detrimental because you will do fewer update steps per epoch with a larger batch size.
 
 ### Additional Examples (Optional)
 
