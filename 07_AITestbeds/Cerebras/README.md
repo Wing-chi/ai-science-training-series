@@ -70,6 +70,13 @@ See `csctl -h` for more options.
 
 Run BERT example with different batch sizes like 512, 2048 and observe the performance difference.  
 
+BERT with batch size 1024 
+![image](https://github.com/user-attachments/assets/4560fc8b-30eb-4924-b33d-09b6dc5c6b6f)
+
+BERT with batch size 512
+![image](https://github.com/user-attachments/assets/43299938-3236-4b5c-9f24-9e508774b4fe)
+
+
 ### Additional Examples (Optional)
 
 * [GPT-J](./gptj.md)
