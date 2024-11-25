@@ -81,6 +81,20 @@ Considering how I get this error when I run the code:
 
 I am not sure what the actual performance will be but I believe that having larger batch sizes would result in better performance, however, having batch sizes that are too large can also be detrimental because you will do fewer update steps per epoch with a larger batch size.
 
+## Theory Homework
+
+1. What are the key architectural features that make these systems suitable for AI workloads?
+   The key architectural features include having specialized hardware that can accelerate matrix multiplications and tensor operations. In addition, they can have higher memory storage and utilization capabilities that are necessary for AI workloads. Lastly, they each have many cores or processing units, and can thus perform calculations in parallel which significantly speeds up training and inference tasks that are asked of it.
+   
+2. Identify the primary differences between these AI accelerator systems in terms of their architecture and programming models.
+    Sambanovas is most suitable for efficient handling of large data due to its Reconfigurable Dataflow Unit (RDU) features a multi-tiered memory architecture with terabytes of addressable memory. Cerebras Wafer-Scale Engine (WSE) consists of processing elements (PEs) with its own memory and operates independently that makes the system highly parallel and scalable. Similarly, Graphcore’s Intelligence Processing Unit (IPU) consists of many interconnected processing tiles, each with its own core and local memory. Because the IPU operates in two phases—computation and communication—using Bulk Synchronous Parallelism (BSP), calculations can be completed much faster. Lastly, Groq’s Tensor Streaming Processor (TSP) focuses on deterministic execution which is suitable for inference tasks where low latency is important.
+   
+3. Based on hands-on sessions, describe a typical workflow for refactoring an AI model to run on one of ALCF's AI testbeds (e.g., SambaNova or Cerebras). What tools or software stacks are typically used in this process?
+  A typical worksflow starts by using vendor specific implementation of a ML framework like PyTorch to port model. Data is then prepared by converting it to the model format and fed into the model to start training it. Input tensors, optimizers, and loss functions are taken into account while training.
+
+4. Give an example of a project that would benefit from AI accelerators and why?
+   Any sort of materials discovery would benefit from AI accelerators as there is a multitude of variables that need to be taken into account to successfully theorize then synthesize a new material. The large possibilities creates a large data set that would need parallel computing for efficient time utilization and, a having the ability to make inferences off data and other inputs would widen the scope of possible materials we perhaps have not thought of before.
+
 ### Additional Examples (Optional)
 
 * [GPT-J](./gptj.md)
